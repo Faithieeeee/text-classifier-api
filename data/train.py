@@ -9,6 +9,7 @@ DATA_PATH = "data/bbc-text.csv"
 MODEL_OUT_PATH = "models/classifier.joblib"
 EMBEDDER_NAME = "all-MiniLM-L6-v2"
 
+
 def main():
     print("Loading dataset...")
     df = pd.read_csv(DATA_PATH)
